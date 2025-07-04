@@ -1,4 +1,7 @@
 # Dynamic Media Kits for PlayersOnly
+## Tech Stack
+- PDF-LIB for PDF editing
+- Chart.js for chart creation
 ## Application Flow
 ```mermaid
 flowchart TD
