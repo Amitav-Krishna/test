@@ -17,6 +17,7 @@ flowchart TD
 
         C -->|DB| C1["Name/contact info"]
         C -->|DB| C2["Testimonials"]
+        C -->|DB| F2["Add branding"]
         C1 --> E
         C2 --> E
         
@@ -24,7 +25,7 @@ flowchart TD
         D --> D2["Calculate trends"]
         D2 --> E
         
-        F2["Add branding"] --> E
+        F2 --> E
     end
     subgraph Tweaks / Regeneration
         F[User / Agency clicks regenerate] --> G[Real-time data is refetched and PDF is repopulated]
